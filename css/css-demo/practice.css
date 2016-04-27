@@ -4,3 +4,8 @@ section#contact-info p {
 
 #resume-title:hover 
 { background: gold; }
+
+li { background-color: white; }
+ul > li {
+  background-color: pink;
+}
