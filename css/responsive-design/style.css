@@ -25,6 +25,7 @@ image, figure, and figcaption CSS if you'd like,
 but it's optional! */
 img {
   width: 100%;
+  height: auto;
 }
 
 figure {
@@ -38,12 +39,12 @@ figcaption {
 }
 
 body {
-  max-width:960px;
+  width:960px;
   margin:0px auto;
 }
 
 main * {
-  width: 756px;
+  width: 100%;
   float: right;
   vertical-align: top;
   margin-top: 0px;
@@ -51,7 +52,11 @@ main * {
 
 }
 
-
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+}
 
 
 
