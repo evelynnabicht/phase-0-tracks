@@ -6,17 +6,17 @@
 
 
 
-var reverse_string = ""
+var reverse = ""
 
 var reverse = function(str) {
 for (var i = 0; i <= str.length; i ++) {
 
-  reverse_string = reverse_string + str.charAt(str.length-(1+i));
+  reverse = reverse + str.charAt(str.length-(1+i));
 }
 if (1==1) {
-  console.log(reverse_string);
+  console.log(reverse);
 }
 
 }
 
-reverse_string("hello")
+reverse("assuh dude")
