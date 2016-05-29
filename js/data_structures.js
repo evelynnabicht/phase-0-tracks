@@ -7,7 +7,9 @@ colors.push("Blue");
 names.push("Fernando");
 
 // use arrays to create objects 
-$.each(colors,function(i,val){
-  obj[namesi]] = val;
+var obj = {}
+
+colors.map( function( value, index ) {
+    obj[ value ] = names[ index ];
 });
 
