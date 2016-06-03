@@ -1,45 +1,46 @@
-<form name="adventure" action="https://httpbin.org/post" method="post">
-  <fieldset>
-    <div>
-      <label>Full name:</label>
-      <input type="text" name="fullname">
-    </div>
-
-    <div>
-      <label>Email:</label>
-      <input type="email" name="email">
-    </div>
-
-    <div>
-      <label>Password:</label>
-      <input type="password" name="password">
-    </div>
-  </fieldset>
-
-  <fieldset>
-    <div>
-      <label>Adventure name:</label>
-      <input type="text" name="adv-name" placeholder="Name this adventure">
-    </div>
-
-    <div>
-      <label>Type of bicycle:</label>
-      <select name="bike">
-        <option value="road">Road</option>
-        <option value="road">Mountain</option>
-        <option value="road">Cyclocross</option>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Madness</title>
+</head>
+<body>
+<form action="success.html" method="post">
+  <div>
+    <label>Email:</label>
+    <input type="email" name="email">
+  </div>
+  <div>
+      <label>Type of Movie</label>
+      <select name="Movie_Genre">
+        <option value="Genre">Comedy</option>
+        <option value="Genre">Horror</option>
+        <option value="Genre">Action</option>
       </select>
     </div>
+  <div>
+    <label>Password:</label>
+    <input type="password" name="password">
+  </div>
 
-    <div>    
-      <label>Choose a date:</label>
-      <input type="date" name="date">
-    </div>
-    <div>
-      <input type="checkbox" name="cb-agree" value="agree">
-      I am prepared to lead this adventure.
-    </div>
+  <textarea name="comment" form="usrform">Enter comment here...</textarea>
+
+  <fieldset>
+  <legend> Favorite Actor/Actress </legend>
+  <p><label> <input type=radio name="Person" value="Jim Carey"> Jim Carey </label></p>
+  <p><label> <input type=radio name="Person" value="Brad Pit"> Brad Pit </label></p>
+  <p><label> <input type=radio name="Person" value="Jennifer Lawernce"> Jennifer Lawernce </label></p>
   </fieldset>
-  
-  <button type="submit">Save this adventure</button>
+
+<fieldset>
+  <legend> Favorite Directors </legend>
+  <p><label> <input type=checkbox name="Director" value="Steven Speilberg"> Steven Speilberg </label></p>
+  <p><label> <input type=checkbox name="Director" value="James Cameron"> James Cameron </label></p>
+  <p><label> <input type=checkbox name="Director" value="Quentin Tarantino"> Quentin Tarantino </label></p>
+  </fieldset>
+
+  <fieldset>
+  <button type="submit">Submit</button>
+  </fieldset>
 </form>
+</body>
+</html>
