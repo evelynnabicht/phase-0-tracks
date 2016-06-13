@@ -5,9 +5,9 @@ img {
 
 .glasses {
   position: absolute;
-    margin-left: 230px;
-    margin-top: 200px;
-    z-index: 1;
+  margin-left: 242px;
+  margin-top: 218px;
+  z-index: 1;
 }
 
 .hat {
@@ -15,11 +15,10 @@ img {
   margin-left: 200px;
   width:20%;
 }
-.octopus{
+
+.octopus {
   position: static;
-     margin-left: 180px;
-     margin-top: 90px;
-    width: 20%;
-   
-}
+  margin-left: 180px;
+  margin-top: 90px;
+  width: 20%;
 }
