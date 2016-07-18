@@ -13,9 +13,7 @@ cite {
   list-style-type: none;
   padding-left: 0px;
   width: 20%;
-  vertical-align: left;
-  float: left;
-  display: inline;
+  display: inline-block;
 
 }
 
@@ -41,19 +39,32 @@ body {
 
 main {
   width: 75%;
-  float: right;
   vertical-align: top;
   margin-top: 0px;
-  display: inline;}
+  display: inline-block;}
 
   @media screen and (max-width: 600px) {
 
     body {width:80%;} 
     
     #external-links {width: 20%;
-                    padding-right: 8% ;
+        padding-right: 8% ;
+        display: block;
 }
 
 @media screen and (max-width: 400px) {
   body {font-size: 20%}
+  
+  h1 {
+    width: 90%;
+    font-size: 80%
+  }
+
+  #external-links {
+    display: block;
+    width: 100%;
+  }
+
+main {
+  width: 100%;
 }
